@@ -1,3 +1,4 @@
+// this program calculates the area of rectangle
 #include<stdio.h>
 int main(){
 int length;
