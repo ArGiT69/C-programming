@@ -1,0 +1,47 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+*.app
+*.dll
+*.so
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Dependencies
+*.a
+*.lib
+
+# IDE and editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Build directories
+build/
+dist/
+bin/
+
+# Misc
+*.log
+.tags
+tags
