@@ -18,10 +18,15 @@ This repository contains various C programs and exercises as I progress through 
 
 ```
 C programming/
-├── first.c              # Initial C program - Hello World and basics
-├── variables.c          # Variables, data types, and type casting
-├── .gitignore          # Git configuration
-└── README.md           # This file
+├── first.c                        # Initial C program - Hello World and basics
+├── variables.c                    # Variables, data types, and type casting
+├── Practice set/                  # Practice exercises and challenge programs
+│   ├── area_of_circle.c
+│   ├── area_of_rectangle.c
+│   ├── celcius_to_fahrenheit.c
+│   └── volume_of_cylinder.c
+├── .gitignore                     # Git configuration
+└── README.md                      # This file
 ```
 
 ## 💻 Current Programs
@@ -37,6 +42,15 @@ Exploring C variables including:
 - Variable declaration and initialization
 - Different data types (int, float, char, etc.)
 - Type casting and conversions
+
+### `Practice set/*.c`
+Practice programs for geometry and conversion problems:
+- `area_of_circle.c` — calculate circle area
+- `area_of_rectangle.c` — calculate rectangle area
+- `celcius_to_fahrenheit.c` — temperature conversion
+- `volume_of_cylinder.c` — calculate cylinder volume
+
+The `Practice set` folder contains focused exercises that reinforce common C concepts like arithmetic, input/output, and basic math logic.
 
 ## 🚀 Getting Started
 
@@ -133,4 +147,4 @@ This repository is open for educational purposes.
 
 **Happy Coding!** 🚀
 
-*Last Updated: May 28, 2026*
+*Last Updated: May 29, 2026*
