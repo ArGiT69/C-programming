@@ -1,3 +1,13 @@
+/* hey ya! This is a simple calculator program that uses a switch statement 
+to perform basic arithmetic operations based on user input. The user is 
+prompted to choose an operation and then enter two numbers.
+The program then executes the corresponding cases in the switch statement to
+perform the desired calculation and display the result. If the user chooses
+division and the second number is zero, it handles the error gracefully by
+displaying an appropriate message. If the user enters an invalid choice, it
+also informs the user about the invalid input. it's a great way to practice 
+using switch statements in C!
+*/
 #include <stdio.h>
 
 int main() {
