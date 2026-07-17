@@ -2,6 +2,8 @@
 int main() {
     int num;
     int prime = 0;
+    int i = 2; 
+    i <= num / 2;
     printf("Enter a number:\n");
     scanf("%d", &num);
 
@@ -13,6 +15,7 @@ int main() {
                 prime = 1;
                 break;
             }
+            i++;
         }
     }
 
