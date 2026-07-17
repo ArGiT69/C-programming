@@ -7,11 +7,9 @@ this program picks a random number 1–100,
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 int main() {
     // Seeds the random number generator
     srand(time(0));
-
     // Generates a random number between 1 and 100
     int randomNumber = (rand() % 100) + 1;
     int guessed;
