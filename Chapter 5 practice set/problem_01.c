@@ -13,7 +13,7 @@ int average(int a, int b, int c){   // function definition
 int main(){
     int a, b, c;
     printf("enter your three numbers:\n");
-    scanf("%d %d %d", &a, &b, &c);  // & gives the address to store into
+    scanf("%d %d %d", &a, &b, &c);  
 
     printf("the average of the numbers you gave is %d", average(a, b, c)); // call the function here
 
