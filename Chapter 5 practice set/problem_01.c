@@ -1,23 +1,21 @@
 /* write a program using to function to find the average of three numbers
 */
-#include<stdio.h>
+#include <stdio.h>
+float average(float a, float b, float c); 
 
-int average(int a, int b, int c);   // function declaration (prototype)
-
-int average(int a, int b, int c){   // function definition
-    int result;
-    result = (a + b + c) / 3;
-    return result;                  // send value back to caller
+float average(float a, float b, float c){   
+    float result;
+    result = (a + b + c) / 3.0;             
+    return result;                     
 }
 
 int main(){
-    int a, b, c;
-    printf("enter your three numbers:\n");
-    scanf("%d %d %d", &a, &b, &c);  
+    float a, b, c;
+    printf("Enter three numbers: ");
+    if (scanf("%f %f %f", &a, &b, &c) != 3) { 
+        printf( "Invalid input. Please enter three numbers.\n");
+        return 1;
+    }
 
-    printf("the average of the numbers you gave is %d", average(a, b, c)); // call the function here
-
-    return 0;
+    printf("The average of the numbers you gave is %.2f\n", average(a, b, c)); 
 }
-
-
