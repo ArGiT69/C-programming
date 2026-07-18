@@ -12,7 +12,7 @@ exerted by earth. Consider g = 9.8 m/s2
 
 int main(){
  float m;
- printf("enter your mass exerted by the body\n");
+ printf("enter your mass of the body\n");
  scanf("%f",&m);
  printf("the force of attraction the body by the earth is %.2f\n", force(m));
 
