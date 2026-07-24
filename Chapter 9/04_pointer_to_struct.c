@@ -14,7 +14,8 @@ int main()
     e1.code = 56;
     ptr = &e1;
     //now we can print structure elements using:
-    printf("%d", (*ptr).code);
+    printf("%d\n", (*ptr).code);
+    printf("%d\n", ptr->code);//exactly same as printf("%d", (*ptr).code);
 
     return 0;
 }
