@@ -5,7 +5,7 @@ the ASCII value of its characters
 #include<stdio.h>
 #include<string.h>
 int main(){
-char str[] = "MERO KUCHUPUCHU PARISHA HEHEHEHEE";
+char str[] = "ARJIT LOVES PARISHA";
 for(int i = 0; i<strlen(str); i++)
     {
         str[i]= str[i]+1;
