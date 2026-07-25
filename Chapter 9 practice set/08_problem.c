@@ -43,8 +43,8 @@ else if (d1.dd < d2.dd)
 
 
 int main(){
-    D d1 = {07, 10, 2010};
-    D d2 = {02, 9, 2010};
+    D d1 = {7, 10, 2010};
+    D d2 = {2, 9, 2010};
     printf("%d",compare(d1,d2));
     return 0;
 }
