@@ -1,3 +1,6 @@
+/*
+This is a Snake, Water, Gun game — a variant of Rock-Paper-Scissors.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
