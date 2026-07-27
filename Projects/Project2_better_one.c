@@ -83,4 +83,4 @@ int main()
     showResult(player, computer);
 
     return 0;
-}
+}   
